@@ -26,4 +26,64 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title {
+  color: white;
+  text-align: center;
+}
+
+.bandera-1 {
+  width: 300px;
+  height: 300px;
+  border: 2px solid white;
+  background-image: linear-gradient(red 100px, blue 100px 200px, rgb(223, 202, 19) 200px);
+}
+.bandera-2 {
+  width: 300px;
+  height: 300px;
+  border: 2px solid white;
+  background-image: linear-gradient(to right, green 120px, transparent 120px 300px),
+    linear-gradient(to top, red 150px, yellow 150px);
+}
+
+.bandera-3 {
+  width: 300px;
+  height: 300px;
+  border: 2px solid white;
+
+  background-image: linear-gradient(to right, black 100px, yellow 100px 200px, red 100px);
+}
+.bandera-4 {
+  width: 300px;
+  height: 300px;
+  border: 2px solid white;
+  background-image: linear-gradient(135deg, green 180px, yellow 180px 250px, red 250px);
+}
+.bandera-5 {
+  width: 300px;
+  height: 300px;
+  border: 2px solid white;
+  background-image: linear-gradient(
+    rgb(18, 131, 197) 100px,
+    white 100px 120px,
+    black 120px 180px,
+    white 180px 200px,
+    rgb(18, 131, 197) 200px
+  );
+}
+.bandera-6 {
+  width: 300px;
+  height: 300px;
+  border: 2px solid white;
+  background-image: linear-gradient(110deg, blue 80px, transparent 80px),
+    linear-gradient(130deg, yellow 190px, transparent 180px), linear-gradient(155deg, red 270px, transparent 150px),
+    linear-gradient(170deg, white 295px, transparent 290px), linear-gradient(165deg, green 365px, transparent 0px);
 }
