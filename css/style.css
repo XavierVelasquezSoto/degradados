@@ -58,8 +58,8 @@ body {
   width: 300px;
   height: 300px;
   border: 2px solid white;
-
   background-image: linear-gradient(to right, black 100px, yellow 100px 200px, red 100px);
+  margin-left: 10px;
 }
 .bandera-4 {
   width: 300px;
